@@ -4,23 +4,26 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <img src="Octocat.png" className="logo" alt="An octocat vector art." />
+        <img src="/carrot_1f955.png" className="logo" alt="An carrot vector art." />
         <p>
-          Morkovka <span className="heart">♥️</span> React
+          Morkovka <span>Web</span> Site
         </p>
         <p className="small">
-          Edit <code>src/App.js</code> and save to reload. Thank you for using Morkovka's Better React Template to explore/develop React!
+          Welcome to the <span className="code">Morkovka</span>'s website!
+
+          Here you can download our stuffs (not updates daily) and see help for our tools! (e.t.c, phonetools)
         </p>
         <p>
           <a
             className="link"
-            href="https://reactjs.org"
+            href="https://github.com/morkovka-org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            GitHub
           </a>
         </p>
+        <img src='/under.png' />
       </header>
     </div>
   );
